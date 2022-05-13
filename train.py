@@ -1,7 +1,6 @@
 import torch
 from torch import nn, optim
 from model.myModel import myModel
-from tqdm import tqdm
 from torch.utils.data import DataLoader, TensorDataset
 import pandas as pd
 import numpy as np
